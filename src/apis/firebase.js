@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 // !authentication
 import { getAuth } from "firebase/auth";
 // !firebase database
-import { getFirestore } from 'firebase/firestore';
+import { getFirestore } from "firebase/firestore";
 // !firebase storage
 import { getStorage } from "firebase/storage";
 

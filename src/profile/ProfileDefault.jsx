@@ -5,7 +5,7 @@ import Spinner from "../pages/Spinner";
 import Styles from "./_profile.module.css";
 import { FaCamera } from "react-icons/fa";
 import { collection, getDocs } from "firebase/firestore";
-import { database } from '../apis/firebase';
+import { database } from "../apis/firebase";
 
 const ProfileDefault = () => {
   let { authUser } = useContext(AuthContext);

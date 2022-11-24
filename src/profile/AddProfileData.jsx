@@ -75,7 +75,7 @@ const AddProfileData = () => {
           />
         </div>
 
-        <div className='form-group'>
+        <div className="form-group">
           <label htmlFor="gender">Gender</label>
           <span>
             <input

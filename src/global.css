@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Antonio&family=Architects+Daughter&family=Arvo&family=Audiowide&family=Bungee+Spice&family=Catamaran&family=Combo&family=Crete+Round&family=Dangrek&family=Fredoka+One&family=Indie+Flower&family=Irish+Grover&family=Lato&family=Libre+Baskerville&family=Luckiest+Guy&family=Maven+Pro&family=Merriweather&family=Michroma&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Orbitron&family=Permanent+Marker&family=Prompt&family=Righteous&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300&family=Rubik+Burned&family=Rubik+Distressed&family=Rubik+Iso&family=Rubik+Maze&family=Russo+One&family=Shadows+Into+Light&family=Special+Elite&family=Work+Sans&display=swap');
+
+/* @import url('https://fonts.google.com/specimen/Lato?query=lat'); */
+
+@import url("./components/navbar/_navbar.module.css");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Lato;
+    background-color: #efefef;
+}
+.active{
+    background-color: #6739b7 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+#spinnerBlock{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#spinnerBlock svg{
+    width: 100px;
+    overflow: visible;
+}
+#spinnerBlock svg circle{
+    stroke: #6739b7;
+    transform-origin: 50px 50px;
+    animation: spin 1.2s linear infinite;
+}
+@keyframes spin{
+    to{
+        transform: rotate(360deg);
+        
+    }
+}

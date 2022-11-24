@@ -26,7 +26,7 @@ const ProfileSidebar = () => {
             </NavLink>
           </li> */}
           <li>
-            <NavLink to='/Profile/add-profile-data' activeclassname="active">
+            <NavLink to="/Profile/add-profile-data" activeclassname="active">
               Add Profile
             </NavLink>
           </li>
